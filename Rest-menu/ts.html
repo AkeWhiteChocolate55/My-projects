@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <link rel="stylesheet" href="css/ts.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+    <title>Ts dolg</title>
+
+</head>
+<body>
+    <header class="head">
+        <div class="container head-cont flex">
+            <div class="logo flex">
+                <a href="#">
+                    R
+                </a>
+            </div>
+            <nav class="nav">
+                <ul class="l-col flex">
+                    <li class="list">
+                        <a href="#pop" class="list-link">
+                            Popular
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#mt" class="list-link">
+                            Meat
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#soup" class="list-link">
+                            Soups
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#sal" class="list-link">
+                            Salats
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#dr" class="list-link">
+                            Drinks
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="con-bas">
+                <a class="bas" href="bas.html">
+                    <svg  width="49px" height="56px" viewBox="0 0 49 56" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                        <g id="Basket" >
+                            <path d="M48.2,55.5 L0.5,55.5 L0.5,13.5 L48.2,13.5 L48.2,55.5 Z M3.5,52.5 L45.2,52.5 L45.2,16.5 L3.5,16.5 L3.5,52.5 Z" fill="#000"></path>
+                            <path d="M38,25.7 L35,25.7 L35,11.3 C35,7 31.5,3.5 27.2,3.5 L21.6,3.5 C17.3,3.5 13.8,7 13.8,11.3 L13.8,25.7 L10.8,25.7 L10.8,11.3 C10.8,5.3 15.6,0.5 21.6,0.5 L27.2,0.5 C33.2,0.5 38,5.3 38,11.3 L38,25.7 Z" fill="#000"></path>
+                        </g>
+                    </g>
+                    </svg>
+                    <span class="colvo-dig"></span>
+                </a>
+            </div>
+            <button class="btn h-but">
+                Order!
+            </button>
+        </div>
+    </header>
+
+    <div class="divbook">
+        <div class="bookt flex">
+            <svg class="cross-book js-close-but" viewBox="4.5 4.5 15 15">
+                <path d="M19 5L4.99998 19M5.00001 5L19 19" />
+                </svg>
+            <div class="booktext flex">
+                <h1 class="text1">SUBMIT APPLICATION</h1>
+            </div>
+            <form class="down-submit flex">
+                <input type="text" class="name" placeholder="Name">
+                <input type="tel" class="tel" name="urtel
+                " value="" placeholder="8 (343) 228-37-77" maxlength="11">
+                <button class="sendb js-book-send" type="submit">
+                    Send
+                </button>
+            </form>
+        </div>
+    </div> 
+
+    <div class="paydiv2 flex">
+        <svg class="cross-pay2 js-close-pay2" viewBox="4.5 4.5 15 15">
+            <path d="M19 5L4.99998 19M5.00001 5L19 19" />
+            </svg>
+            <div class="pd2-t flex">
+                <h1 class="text-pd2">CHOOSE TYPE PAYMENT</h1>
+            </div>
+        <div class="restdiv2">
+            <span class="totable2 flex">Bring the order to the table in the restauran
+            </span>
+            <form class="rest-dates2 flex">
+                <input type="text" class="rest-name2" placeholder="Name">
+                <input type="tel" class="rest-tel2" name="urtel
+                " value="" placeholder="8 (343) 228-37-77" maxlength="11">
+                <button class="rest-sendb2 js-rest" type="submit">
+                    Send
+                </button>
+            </form>
+        </div>
+        <div class="delivdiv2">
+            <span class="tohome2 flex">
+                Deliver to my home
+            </span>
+            <form class="deliv-dates2">
+                <input type="text" class="deliv-name2" placeholder="Name">
+                <input type="tel" class="deliv-tel2" name="urtel
+                " value="" placeholder="8 (343) 228-37-77" maxlength="11">
+                <input type="text" class="deliv-address2" placeholder="Address">
+                <input type="typ" class="deliv-dom2" value="" placeholder="House">
+                <button class="deliv-sendb2 js-deliv" type="submit">
+                    Send
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <div>
+        <div class="congrat2 flex">
+            <h1 class="congrat2-t1 flex">
+                Great! Order sent
+            </h1>
+            <p class="congrat2-t2 flex">Waiter will bring your order soon</p>
+            <button class="congrat2-but flex" onclick="window.location.href='ts.html'">
+                Ok
+            </button>
+        </div>
+    </div>
+
+    <div class="message2 flex">
+        <h1 class="m2-t1 flex">
+            Great! Order sent
+        </h1>
+        <p class="m2-t2 flex">Manager will contact you please wait him call</p>
+        <button class="mes-but2 flex" onclick="window.location.href='ts.html'">
+            Ok
+        </button>
+    </div>
+    
+<div>
+    <div class="congrat flex">
+        <h1 class="congrat-t1 flex">
+            You was entered application!
+        </h1>
+        <p class="congrat-t2 flex">Manager will contact you please wait him call</p>
+        <button class="congrat-but flex">
+            Ok
+        </button>
+    </div>
+</div>
+
+    <main class="screen">
+        <section class="welcome">
+            <div class="welcom-con">
+                <div class="w-img flex">
+                    <div class="prev flex">
+                        <div class="prev-l flex">
+                            <h1 class="text">ROSKOSH</h1>
+                            <p class="s-text">Restaurant</p>
+                        </div>
+                        <button class="prev-but jsbut-book">
+                            Book a table
+                        </button>
+                    </div>
+                        <ul class="wel-icons flex">
+                            <li class="work-tel flex">
+                                <svg width="80px" height="80px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M3 5.5C3 14.0604 9.93959 21 18.5 21C18.8862 21 19.2691 20.9859 19.6483 20.9581C20.0834 20.9262 20.3009 20.9103 20.499 20.7963C20.663 20.7019 20.8185 20.5345 20.9007 20.364C21 20.1582 21 19.9181 21 19.438V16.6207C21 16.2169 21 16.015 20.9335 15.842C20.8749 15.6891 20.7795 15.553 20.6559 15.4456C20.516 15.324 20.3262 15.255 19.9468 15.117L16.74 13.9509C16.2985 13.7904 16.0777 13.7101 15.8683 13.7237C15.6836 13.7357 15.5059 13.7988 15.3549 13.9058C15.1837 14.0271 15.0629 14.2285 14.8212 14.6314L14 16C11.3501 14.7999 9.2019 12.6489 8 10L9.36863 9.17882C9.77145 8.93713 9.97286 8.81628 10.0942 8.64506C10.2012 8.49408 10.2643 8.31637 10.2763 8.1317C10.2899 7.92227 10.2096 7.70153 10.0491 7.26005L8.88299 4.05321C8.745 3.67376 8.67601 3.48403 8.55442 3.3441C8.44701 3.22049 8.31089 3.12515 8.15802 3.06645C7.98496 3 7.78308 3 7.37932 3H4.56201C4.08188 3 3.84181 3 3.63598 3.09925C3.4655 3.18146 3.29814 3.33701 3.2037 3.50103C3.08968 3.69907 3.07375 3.91662 3.04189 4.35173C3.01413 4.73086 3 5.11378 3 5.5Z" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    </svg>
+                                <a href="tel:+73432283777" class="e-l">
+                                    +7&nbsp;(343) 228-37-77
+                                </a>
+                            </li>
+                              <li class="time">
+                                <div class="w-t-d">
+                                    <span class="watch">🕙︎</span>
+                                    <span class="work-time">
+                                        9:00-23:00
+                                   </span>
+                                  </div>  
+                              </li>
+                              <li class="geo flex">
+                                <svg width="50px" height="50px" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill="#000000" class="bi bi-geo-alt-fill">
+                                    <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+                                  </svg>
+                                <p class="geo-text">Almaty
+                                    Prospect Dostiq 535</p>
+                              </li>
+                        </ul>
+                    <div class="dark"></div>
+                </div>
+            </div>
+        </section>
+        <section id="pop" class="sec-p">
+            <h1 class="t1">
+                Popular
+            </h1>
+            <ul class="p-l flex l-res">
+                <li class="p-li flex">
+                    <img src="img/borzh.jpeg" alt="" class="img-p">
+                    <div class="p-cont">
+                        <h4 class="t4">
+                            Борщ
+                        </h4>
+                        <p class="p-t">
+                            Классический суп на наваристом бульоне, подается с салом и чесноком на ржаных гренках <br> <b>250/40/70г</b>
+                        </p>
+                        <div class="price">
+                            170 ₽
+                        </div>
+                        <button id="9" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="p-li ">
+                    <img src="img/shashsvin.jpg" alt="" class="img-p">
+                    <div class="p-cont">
+                        <h4 class="t4">
+                            Шашлык из свинины
+                        </h4>
+                        <p class="p-t">
+                            С беконом, картофельными дольками, салатом Коул слоу и соусом барбекю <br> <b>380г</b>
+                        </p>
+                        <div class="price">
+                            350 ₽
+                        </div>
+                        <button id="7" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="p-li flex">
+                    <img src="img/cezarkrev.jpeg" class="img-p">
+                    <div class="p-cont">
+                        <h4 class="t4">
+                            Цезарь с креветками
+                        </h4>
+                        <p class="p-t">
+                            Салат с пшеничными гренками, перепелиными яйцами, с листьями салата, томатами черри и соусом цезарь. Подается с тигровыми креветками в соусе песто<br><b>210г</b>
+                        </p>
+                        <div class="price">
+                            260 ₽
+                        </div>
+                        <button id="23" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="p-li ">
+                    <img src="img/morsbrus.jpeg" class="img-p">
+                    <div class="p-cont">
+                        <h4 class="t4">
+                            Морс бруснично-клюквенный
+                        </h4>
+                        <p class="p-t">
+                            1л
+                        </p>
+                        <div class="price">
+                            450 ₽
+                        </div>
+                        <button id="26" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="mt" class="sec-c">
+            <h1 class="t1">
+                Meat
+            </h1>
+            <ul class="hy-l flex l-res">
+                <li class="hy-li ">
+                    <img src="img/yazmush.jpeg" alt="" class="img-h">
+                    <div class="h-cont">
+                        <h4 class="t4">
+                            Язык с грибным соусом
+                        </h4>
+                        <p class="h-t">
+                            Томленые говяжьи щеки в винном соусе на подушке из картофельного пюре <br> <b>250г</b>
+                        </p>
+                        <div class="price">
+                            230 ₽
+                        </div>
+                        <button id="1" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="hy-li ">
+                    <img src="img/govsliv.jpeg" alt="" class="img-h">
+                    <div class="h-cont">
+                        <h4 class="t4">
+                            Говядина со сливочно перечным соусом
+                        </h4>
+                        <p class="h-t">
+                            Обжаренная говядина со сливочно-перечным соусом и овощами на гриле <br> <b>250/40г</b>
+                        </p>
+                        <div class="price">
+                            240 ₽
+                        </div>
+                        <button id="2" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="hy-li ">
+                    <img src="img/svinnap.jpeg" alt="" class="img-h">
+                    <div class="h-cont">
+                        <h4 class="t4">
+                            Свинина Неаполитано
+                        </h4>
+                        <p class="h-t">
+                            Сочный стейк из свиной вырезки мы обжариваем на гриле, подаем с овощами, молодым картофелем и соусом барбекю <br> <b>270/40г</b>
+                        </p>
+                        <div class="price">
+                            220 ₽
+                        </div>
+                        <button id="3" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="hy-li ">
+                    <img src="img/chikter.jpeg" alt="" class="img-h">
+                    <div class="h-cont">
+                        <h4 class="t4">
+                            Курица терияки
+                        </h4>
+                        <p class="h-t">
+                            Нежное филе куриного бедра, обжаренное с соусом терияки. Подается с отварным рисом и помидорами черри <br> <b>250г</b>
+                        </p>
+                        <div class="price">
+                            250 ₽
+                        </div>
+                        <button id="4" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="hy-li ">
+                    <img src="img/zhargov.jpeg" alt="" class="img-h">
+                    <div class="h-cont">
+                        <h4 class="t4">
+                            Жаровня с говядиной
+                        </h4>
+                        <p class="h-t">
+                            Сытное сочетание сочных говяжьих щечек со сливочным соусом, шампиньонами, картофелем, запеченное под сырным соусом <br> <b>300г</b>
+                        </p>
+                        <div class="price">
+                            350 ₽
+                        </div>
+                        <button id="5"
+                        class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="hy-li ">
+                    <img src="img/shashkur.jpg" alt="" class="img-h">
+                    <div class="h-cont">
+                        <h4 class="t4">
+                            Шашлык куриный
+                        </h4>
+                        <p class="h-t">
+                            Из филе бедра на шпажке с картофельными кубиками с чесноком, салатом Коул слоу и соусом барбекю <br> <b>360г</b>
+                        </p>
+                        <div class="price">
+                            300 ₽
+                        </div>
+                        <button id="6" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="hy-li ">
+                    <img src="img/shashsvin.jpg" alt="" class="img-h">
+                    <div class="h-cont">
+                        <h4 class="t4">
+                            Шашлык из свинины
+                        </h4>
+                        <p class="h-t">
+                            С беконом, картофельными дольками, салатом Коул слоу и соусом барбекю <br> <b>380г</b>
+                        </p>
+                        <div class="price">
+                            350 ₽
+                        </div>
+                        <button id="7" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="hy-li ">
+                    <img src="img/shashind.jpg" alt="" class="img-h">
+                    <div class="h-cont">
+                        <h4 class="t4">
+                            Шашлык из индейки
+                        </h4>
+                        <p class="h-t">
+                            С картофелем фри, салатом Коул слоу и соусом барбекю <br> <b>360г</b>
+                        </p>
+                        <div class="price">
+                            320 ₽
+                        </div>
+                        <button id="8" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="soup" class="sec-s">
+            <h1 class="t1">
+                Soups
+            </h1>
+            <ul class="s-l flex l-res">
+                <li class="s-li flex">
+                    <img src="img/borzh.jpeg" alt="" class="img-s">
+                    <div class="s-cont">
+                        <h4 id="" class="t4">
+                            Борщ
+                        </h4>
+                        <p class="s-t">
+                            Классический суп на наваристом бульоне, подается с салом и чесноком на ржаных гренках <br> <b>250/40/70г</b>
+                        </p>
+                        <div class="price">
+                            170 ₽
+                        </div>
+                        <button id="9" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="s-li flex">
+                    <img src="img/harcho.jpeg" alt="" class="img-s">
+                    <div class="s-cont">
+                        <h4 class="t4">
+                            Харчо
+                        </h4>
+                        <p class="s-t">
+                            Традиционный грузинский суп с говяжьими щеками и пряным наваристым бульоном. Подаем со сметаной <br> <b>340/40г</b>
+                        </p>
+                        <div class="price">
+                            180 ₽
+                        </div>
+                        <button id="10" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="s-li flex">
+                    <img src="img/mush.jpeg" alt="" class="img-s">
+                    <div class="s-cont">
+                        <h4 class="t4">
+                            Грибной крем-суп
+                        </h4>
+                        <p class="s-t">
+                            Шампиньоны, сливки, картофель, лук репчатый, масло зеленое, тимьян/розмарин, масло сливочное <br> <b>250г</b>
+                        </p>
+                        <div class="price">
+                            190 ₽
+                        </div>
+                        <button id="11" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="s-li flex">
+                    <img src="img/tomkrev.jpeg" alt="" class="img-s">
+                    <div class="s-cont">
+                        <h4 class="t4">
+                            Том ям с креветками
+                        </h4>
+                        <p class="s-t">
+                            Пряный суп на кокосовом молоке с шампиньонами, креветками, подается с отварным рисом и лаймом <br> <b>350/100г</b>
+                        </p>
+                        <div class="price">
+                            250 ₽
+                        </div>
+                        <button id="12" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="s-li flex">
+                    <img src="img/tommore.jpeg" alt="" class="img-s">
+                    <div class="s-cont">
+                        <h4 class="t4">
+                            Том ям с морепродуктами
+                        </h4>
+                        <p class="s-t">
+                            Пряный суп на кокосовом молоке с шампиньонами, мидиями, креветками и кальмаром, подается с отварным рисом и лаймом <br> <b>390/100г</b>
+                        </p>
+                        <div class="price">
+                            260 ₽
+                        </div>
+                        <button id="13" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="s-li flex">
+                    <img src="img/ramen.jpeg" alt="" class="img-s">
+                    <div class="s-cont">
+                        <h4 class="t4">
+                            Рамен 2.0
+                        </h4>
+                        <p class="s-t">
+                            Суп на основе куриного бульона с маринованным яйцом, пшеничной лапшой, кукурузой, куриной грудкой барбекю, приправой Шичими, кинзой, зеленым луком и нори <br> <b>350г</b>
+                        </p>
+                        <div class="price">
+                            250 ₽
+                        </div>
+                        <button id="14" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="s-li flex">
+                    <img src="img/miso.jpeg" alt="" class="img-s">
+                    <div class="s-cont">
+                        <h4 class="t4">
+                            Мисо широ
+                        </h4>
+                        <p class="s-t">
+                            Традиционный японский суп с водорослями вакаме и тофу <br> <b>190г</b>
+                        </p>
+                        <div class="price">
+                            150 ₽
+                        </div>
+                        <button id="15" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="s-li flex">
+                    <img src="img/veng.jpg" alt="" class="img-s">
+                    <div class="s-cont">
+                        <h4 class="t4">
+                            Венгерский суп-гуляш
+                        </h4>
+                        <p class="s-t">
+                            Густой суп с пикантной остротой с болгарским перцем, картофелем, говядиной, луком, морковью и чесночком<br><b>300г</b>
+                        </p>
+                        <div class="price">
+                            200 ₽
+                        </div>
+                        <button id="16" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="sal" class="sec-sal">
+            <h1 class="t1">Salats</h1>
+            <ul class="sal-l flex">
+                <li class="sal-li flex">
+                    <img src="img/tbilisi.jpeg" alt="" class="img-sal">
+                    <div class="sal-cont">
+                        <h4 class="t4">
+                            Салат Тбилиси
+                        </h4>
+                        <p class="sal-t">
+                            Отварной говяжий язык со свежими овощами и хрустящими листьями салата<br><b>200г</b>
+                        </p>
+                        <div class="price">
+                            200 ₽
+                        </div>
+                        <button id="17" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="sal-li flex">
+                    <img src="img/avakrev.jpeg" alt="" class="img-sal">
+                    <div class="sal-cont">
+                        <h4 class="t4">
+                            Зеленый салат с авокадо и креветками
+                        </h4>
+                        <p class="sal-t">
+                            Микс зеленых салатов, спелое авокадо, креветки, капуста брокколи, творог тофу и ореховый соус<br><b>220г</b>
+                        </p>
+                        <div class="price">
+                            270 ₽
+                        </div>
+                        <button id="18" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="sal-li flex">
+                    <img src="img/grushcheese.jpeg" alt="" class="img-sal">
+                    <div class="sal-cont">
+                        <h4 class="t4">
+                            Салат с Креветками, Грушей и сыром Дор Блю
+                        </h4>
+                        <p class="sal-t">
+                            Микс мз листьев салата с сыром дорблю, обжаренными креветками, грушей и соусом манго<br><b>180г</b>
+                        </p>
+                        <div class="price">
+                            280 ₽
+                        </div>
+                        <button id="19" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="sal-li flex">
+                    <img src="img/teplkur.jpeg" alt="" class="img-sal">
+                    <div class="sal-cont">
+                        <h4 class="t4">
+                            Теплый салат с курицей
+                        </h4>
+                        <p class="sal-t">
+                            Филе цыпленка в панировке со свежими овощами и сочными листьями салата и фирменным соусом<br><b>240г</b>
+                        </p>
+                        <div class="price">
+                            190  ₽
+                        </div>
+                        <button id="20" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="sal-li flex">
+                    <img src="img/grech.jpeg" alt="" class="img-sal">
+                    <div class="sal-cont">
+                        <h4 class="t4">
+                            Салат Греческий
+                        </h4>
+                        <p class="sal-t">
+                            Классическое сочетание свежих сочных овощей, хрустящих листьев салата, сыра фета и маслин с классической заправкой из бальзамика и оливкового масла<br><b>180г</b>
+                        </p>
+                        <div class="price">
+                            160 ₽
+                        </div>
+                        <button id="21" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="sal-li flex">
+                    <img src="img/cezarkur.jpeg" alt="" class="img-sal">
+                    <div class="sal-cont">
+                        <h4 class="t4">
+                            Цезарь с курицей
+                        </h4>
+                        <p class="sal-t">
+                            Салат с пшеничными гренками, перепелиными яйцами,с листьями салата, томатами черри и соусом цезарь Подается с обжаренными куриными медальонами<br><b>230г</b>
+                        </p>
+                        <div class="price">
+                            210 ₽
+                        </div>
+                        <button id="22" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="sal-li flex">
+                    <img src="img/cezarkrev.jpeg" class="img-sal">
+                    <div class="sal-cont">
+                        <h4 class="t4">
+                            Цезарь с креветками
+                        </h4>
+                        <p class="sal-t">
+                            Салат с пшеничными гренками, перепелиными яйцами, с листьями салата, томатами черри и соусом цезарь. Подается с тигровыми креветками в соусе песто<br><b>210г</b>
+                        </p>
+                        <div class="price">
+                            260 ₽
+                        </div>
+                        <button id="23" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="sal-li flex">
+                    <img src="img/grilsal.jpeg" alt="" class="img-sal">
+                    <div class="sal-cont">
+                        <h4 class="t4">
+                            Гриль салат
+                        </h4>
+                        <p class="sal-t">
+                            Охлажденную свиную вырезку мы обжариваем на гриле и выкладываем на микс свежих овощей, листьев салата и шампиньонов<br><b>180г</b>
+                        </p>
+                        <div class="price">
+                            250 ₽
+                        </div>
+                        <button id="24" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section id="dr" class="sec-d">
+            <h1 class="t1">
+                Drinks
+            </h1>
+            <ul class="d-l flex l-res">
+                <li class="d-li ">
+                    <img src="img/morsobl.jpeg" alt="" class="img-d">
+                    <div class="d-cont">
+                        <h4 class="t4">
+                            Морс облепиховый
+                        </h4>
+                        <p class="d-t">
+                            1л
+                        </p>
+                        <div class="price">
+                            450 ₽
+                        </div>
+                        <button id="25" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="d-li ">
+                    <img src="img/morsbrus.jpeg" class="img-d">
+                    <div class="d-cont">
+                        <h4 class="t4">
+                            Морс бруснично-клюквенный
+                        </h4>
+                        <p class="d-t">
+                            1л
+                        </p>
+                        <div class="price">
+                            450 ₽
+                        </div>
+                        <button id="26" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="d-li ">
+                    <img src="img/freshmork.jpeg" alt="" class="img-d">
+                    <div class="d-cont">
+                        <h4 class="t4">
+                            Фреш морковный
+                        </h4>
+                        <p class="d-t">
+                            500мл
+                        </p>
+                        <div class="price">
+                            280 ₽
+                        </div>
+                        <button id="27" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="d-li ">
+                    <img src="img/freshybl.jpeg" alt="" class="img-d">
+                    <div class="d-cont">
+                        <h4 class="t4">
+                            Фреш яблочный
+                        </h4>
+                        <p class="d-t">
+                            500мл
+                        </p>
+                        <div class="price">
+                            280 ₽
+                        </div>
+                        <button id="28" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="d-li ">
+                    <img src="img/freshapel.jpeg" alt="" class="img-d">
+                    <div class="d-cont">
+                        <h4 class="t4">
+                            Фреш апельсиновый
+                        </h4>
+                        <p class="d-t">
+                            500мл
+                        </p>
+                        <div class="price">
+                            280 ₽
+                        </div>
+                        <button id="29" class="price-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+                <li class="d-li ">
+                    <img src="img/sok.jpeg" alt="" class="img-d">
+                    <div class="d-cont">
+                        <h4 class="t4">
+                            Сок Rich в ассортименте 0,2л
+                        </h4>
+                        <div class="choose-sok">
+                            <label class="lab" for="apel">
+                                <input type="radio" name="sok"  id="apel">
+                                <span name="orange" value="orange" class="fake"></span>
+                                <span name="orange" value="orange" class="d-s">Сок Rich 0,2 Апельсин</span>
+                            </label><br>
+                            <label class="lab" for="vish">
+                                <input type="radio" name="sok"  id="vish">
+                                <span name="cherry" value="cherry" class="fake"></span>
+                                <span name="cherry" value="cherry" class="d-s">Сок Rich 0,2 Вишня</span>
+                            </label><br>
+                            <label class="lab" for="yabl">
+                                <input type="radio" name="sok" value="yabl" id="yabl">
+                                <span name="yabl" value="yabl" class="fake"></span>
+                                <span name="yabl" value="yabl" class="d-s">Сок Rich 0,2 Яблоко</span>
+                            </label>   
+                        </div>
+                        <div class="price">
+                            180 ₽
+                        </div>
+                        <button id="30" class="price-but sok-but">
+                            Choose
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <script src="js/ts.js"></script>
+    <script src="js/basket.js"></script>
+</body>
+</html>

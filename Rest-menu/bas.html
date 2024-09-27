@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bas.css">
+    <script src="js/jq.js"></script>
+    <title>Basket</title>
+</head>
+<body>
+    <a href="ts.html" class="back">⟵ BACK TO MENU</a>
+
+    <main class="main flex">
+        <h1 class="basket"> 
+            Basket:
+        </h1>
+        <div class="line"></div>
+        
+        <section class="elements flex">
+            
+        </section>
+
+    
+
+        <div class="order flex">
+            <h2 class="op">
+                Order price
+            </h2>
+            <div class="gds-prc"></div>
+            <div class="small-line"></div>
+            <h1 class="i-p flex">
+                Total
+                <p class="tot"></p>
+            </h1>
+            <button class="i-buy">
+                Order
+            </button>
+        </div>
+
+    </main>
+
+    <div class="paydiv flex">
+        <svg class="cross-pay js-close-pay" viewBox="4.5 4.5 15 15">
+            <path d="M19 5L4.99998 19M5.00001 5L19 19" />
+            </svg>
+            <div class="pd-t flex">
+                <h1 class="text-pd">CHOOSE TYPE PAYMENT</h1>
+            </div>
+        <div class="restdiv">
+            <span class="totable flex">Bring the order to the table in the restauran
+            </span>
+            <form class="rest-dates flex">
+                <input type="text" class="rest-name" placeholder="Name">
+                <input type="tel" class="rest-tel" name="urtel
+                " value="" placeholder="8 (343) 228-37-77" maxlength="11">
+                <button class="rest-sendb js-rest" type="submit">
+                    Send
+                </button>
+            </form>
+        </div>
+        <div class="delivdiv">
+            <span class="tohome flex">
+                Deliver to my home
+            </span>
+            <form class="deliv-dates">
+                <input type="text" class="deliv-name" placeholder="Name">
+                <input type="tel" class="deliv-tel" name="urtel
+                " value="" placeholder="8 (343) 228-37-77" maxlength="11">
+                <input type="text" class="deliv-address" placeholder="Address">
+                <input type="typ" class="deliv-dom" value="" placeholder="House">
+                <button class="deliv-sendb js-deliv" type="submit">
+                    Send
+                </button>
+            </form>
+        </div>
+    </div>
+
+
+    <div>
+        <div class="congrat flex">
+            <h1 class="congrat-t1 flex">
+                Great! The order is sent
+            </h1>
+            <p class="congrat-t2 flex">Waiter will bring your order soon</p>
+            <button class="congrat-but flex" onclick="window.location.href='ts.html'">
+                Ok
+            </button>
+        </div>
+    </div>
+
+    <div class="message flex">
+        <h1 class="m-t1 flex">
+            Great! The order is sent
+        </h1>
+        <p class="m-t2 flex">Manager will contact you please wait him call</p>
+        <button class="mes-but flex" onclick="window.location.href='ts.html'">
+            Ok
+        </button>
+    </div>
+    
+    <script src="js/ts.js"></script>
+    <script src="js/basket.js"></script>
+</body>
+</html>
