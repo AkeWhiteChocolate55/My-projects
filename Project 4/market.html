@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/market.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+    <title>Market</title>
+</head>
+<body inter>
+    <header class="head flex">
+        <div class="hd1 flex">
+            <div class="hd-logo">
+                <a href="#" class="hd-logo-link"><b>Market</b></a>
+            </div>
+            <button class="hd-kat">
+                Katalog
+            </button>
+            <button class="hd-kat-open">
+                Katalog
+            </button>
+            <div class="filter flex">
+                <input type="text" class="search" placeholder="search?">  
+                <button class="search-but">
+                    <svg width="25" height="27" viewBox="0 0 20 22" xmlns="http://www.w3.org/2000/svg" class="search-svg">
+                        <path d="M0 0.769231C0 0.565218 0.0810437 0.369561 0.225302 0.225302C0.369561 0.0810437 0.565218 0 0.769231 0H19.2308C19.4348 0 19.6304 0.0810437 19.7747 0.225302C19.919 0.369561 20 0.565218 20 0.769231V3.84615C20 4.03586 19.9298 4.21886 19.8031 4.36L13.0769 11.8338V19.2308C13.0768 19.3921 13.0259 19.5494 12.9315 19.6803C12.8371 19.8111 12.7039 19.909 12.5508 19.96L7.93538 21.4985C7.81981 21.537 7.69674 21.5475 7.57631 21.5291C7.45588 21.5107 7.34154 21.464 7.24269 21.3928C7.14385 21.3216 7.06333 21.2279 7.00776 21.1195C6.95219 21.0111 6.92317 20.8911 6.92308 20.7692V11.8338L0.196923 4.36C0.0701664 4.21886 3.40775e-05 4.03586 0 3.84615V0.769231ZM1.53846 1.53846V3.55077L8.26462 11.0246C8.39137 11.1658 8.4615 11.3488 8.46154 11.5385V19.7015L11.5385 18.6769V11.5385C11.5385 11.3488 11.6086 11.1658 11.7354 11.0246L18.4615 3.55077V1.53846H1.53846Z"/>
+                        </svg>
+                        
+                </button>
+            </div>
+            <div class="ach flex">
+                <a href="admin.html"><svg width="20" height="20" viewBox="0 0 20 20"  xmlns="http://www.w3.org/2000/svg">
+                    <path d="M8.125 18.125V13.7438C8.125 13.4375 8.4375 13.125 8.75 13.125H11.25C11.5625 13.125 11.875 13.4375 11.875 13.75V18.125C11.875 18.2908 11.9408 18.4498 12.0581 18.567C12.1753 18.6842 12.3342 18.75 12.5 18.75H17.5C17.6658 18.75 17.8247 18.6842 17.9419 18.567C18.0592 18.4498 18.125 18.2908 18.125 18.125V9.37502C18.1251 9.29289 18.1091 9.21153 18.0778 9.1356C18.0465 9.05968 18.0005 8.99067 17.9425 8.93252L16.25 7.24127V3.12502C16.25 2.95926 16.1842 2.80029 16.0669 2.68308C15.9497 2.56587 15.7908 2.50002 15.625 2.50002H14.375C14.2092 2.50002 14.0503 2.56587 13.9331 2.68308C13.8159 2.80029 13.75 2.95926 13.75 3.12502V4.74127L10.4425 1.43252C10.3844 1.37431 10.3155 1.32814 10.2395 1.29663C10.1636 1.26512 10.0822 1.2489 10 1.2489C9.91779 1.2489 9.83639 1.26512 9.76046 1.29663C9.68453 1.32814 9.61556 1.37431 9.5575 1.43252L2.0575 8.93252C1.9995 8.99067 1.95353 9.05968 1.92221 9.1356C1.8909 9.21153 1.87485 9.29289 1.875 9.37502V18.125C1.875 18.2908 1.94085 18.4498 2.05806 18.567C2.17527 18.6842 2.33424 18.75 2.5 18.75H7.5C7.66576 18.75 7.82473 18.6842 7.94194 18.567C8.05915 18.4498 8.125 18.2908 8.125 18.125Z" fill="#64748B"/>
+                    </svg>
+                <a href="admin.html">Come in</a></a>
+            </div>
+            <div class="like flex">
+                <svg width="24" height="24" viewBox="0 0 24 24"  xmlns="http://www.w3.org/2000/svg">
+                    <path d="M4.29893 22.275C4.18193 22.941 4.83893 23.4615 5.41793 23.1645L12.0029 19.7805L18.5864 23.1645C19.1654 23.4615 19.8224 22.941 19.7054 22.2765L18.4604 15.1815L23.7434 10.1475C24.2384 9.67651 23.9834 8.81551 23.3204 8.72251L15.9734 7.67851L12.6974 1.18801C12.635 1.05644 12.5366 0.945281 12.4135 0.867445C12.2904 0.789609 12.1478 0.748291 12.0022 0.748291C11.8566 0.748291 11.7139 0.789609 11.5909 0.867445C11.4678 0.945281 11.3693 1.05644 11.3069 1.18801L8.03093 7.68001L0.683933 8.72401C0.0224333 8.81701 -0.234067 9.67801 0.259433 10.149L5.54393 15.183L4.29893 22.278V22.275ZM11.6564 18.1245L6.12743 20.9655L7.16843 15.03C7.19349 14.8934 7.18427 14.7527 7.1416 14.6205C7.09893 14.4883 7.02415 14.3687 6.92393 14.2725L2.56493 10.1175L8.64293 9.25351C8.76858 9.2339 8.88769 9.18443 8.99027 9.10926C9.09284 9.03409 9.17589 8.93541 9.23243 8.82151L11.9999 3.33451L14.7704 8.82151C14.827 8.93541 14.91 9.03409 15.0126 9.10926C15.1152 9.18443 15.2343 9.2339 15.3599 9.25351L21.4379 10.116L17.0789 14.271C16.9785 14.3674 16.9036 14.4872 16.8609 14.6196C16.8182 14.7521 16.8091 14.8931 16.8344 15.03L17.8754 20.9655L12.3464 18.1245C12.2396 18.069 12.121 18.0401 12.0007 18.0401C11.8803 18.0401 11.7632 18.069 11.6564 18.1245Z" fill="#64748B"/>
+                    </svg>
+                    
+                <a href="#">Favorites</a>
+            </div>
+            <div class="basket flex">
+                <svg width="20" height="23" viewBox="0 0 20 23"  xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.75 1.5C1.35218 1.5 0.970644 1.65804 0.68934 1.93934C0.408035 2.22064 0.25 2.60218 0.25 3V4.5C0.25 4.89782 0.408035 5.27936 0.68934 5.56066C0.970644 5.84196 1.35218 6 1.75 6H2.5V19.5C2.5 20.2956 2.81607 21.0587 3.37868 21.6213C3.94129 22.1839 4.70435 22.5 5.5 22.5H14.5C15.2956 22.5 16.0587 22.1839 16.6213 21.6213C17.1839 21.0587 17.5 20.2956 17.5 19.5V6H18.25C18.6478 6 19.0294 5.84196 19.3107 5.56066C19.592 5.27936 19.75 4.89782 19.75 4.5V3C19.75 2.60218 19.592 2.22064 19.3107 1.93934C19.0294 1.65804 18.6478 1.5 18.25 1.5H13C13 1.10218 12.842 0.720644 12.5607 0.43934C12.2794 0.158035 11.8978 0 11.5 0L8.5 0C8.10218 0 7.72064 0.158035 7.43934 0.43934C7.15804 0.720644 7 1.10218 7 1.5H1.75ZM6.25 7.5C6.44891 7.5 6.63968 7.57902 6.78033 7.71967C6.92098 7.86032 7 8.05109 7 8.25V18.75C7 18.9489 6.92098 19.1397 6.78033 19.2803C6.63968 19.421 6.44891 19.5 6.25 19.5C6.05109 19.5 5.86032 19.421 5.71967 19.2803C5.57902 19.1397 5.5 18.9489 5.5 18.75V8.25C5.5 8.05109 5.57902 7.86032 5.71967 7.71967C5.86032 7.57902 6.05109 7.5 6.25 7.5ZM10 7.5C10.1989 7.5 10.3897 7.57902 10.5303 7.71967C10.671 7.86032 10.75 8.05109 10.75 8.25V18.75C10.75 18.9489 10.671 19.1397 10.5303 19.2803C10.3897 19.421 10.1989 19.5 10 19.5C9.80109 19.5 9.61032 19.421 9.46967 19.2803C9.32902 19.1397 9.25 18.9489 9.25 18.75V8.25C9.25 8.05109 9.32902 7.86032 9.46967 7.71967C9.61032 7.57902 9.80109 7.5 10 7.5ZM14.5 8.25V18.75C14.5 18.9489 14.421 19.1397 14.2803 19.2803C14.1397 19.421 13.9489 19.5 13.75 19.5C13.5511 19.5 13.3603 19.421 13.2197 19.2803C13.079 19.1397 13 18.9489 13 18.75V8.25C13 8.05109 13.079 7.86032 13.2197 7.71967C13.3603 7.57902 13.5511 7.5 13.75 7.5C13.9489 7.5 14.1397 7.57902 14.2803 7.71967C14.421 7.86032 14.5 8.05109 14.5 8.25Z" fill="#64748B"/>
+                    </svg>
+                    
+                <a href="#">Basket</a>
+            </div>
+        </div>
+        <div class="hd2 flex">
+            <div class="win flex">
+                Sale
+            </div>
+            <div class="win flex">
+                Fast delivery
+            </div>
+            <div class="win flex">
+                Supermarket
+            </div>
+            <div class="win flex">
+                Stocks
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="goods flex">
+            <div class="gds flex">
+                <div class="deepgds">
+                    <img src="img/sp.jpg" alt="" class="spoon">
+                </div>
+                <div class="gds2 flex">
+                    <h4 class="gds-t1">
+                        Spoon
+                    </h4>
+                    <p class="gds-t2 t2-1">
+                        To&nbsp;Kitchen 
+                    </p>
+                    <button class="gts-but">
+                        To order
+                    </button>
+                </div>
+            </div>
+            <div class="gds flex">
+                <div class="deepgds">
+                    <img src="img/sofa.jpg" alt="" class="sofa">
+                </div>
+                <div class="gds2 flex">
+                    <h4 class="gds-t1">
+                        Sofa
+                    </h4>
+                    <p class="gds-t2 t2-2">
+                        In&nbsp;house
+                    </p>
+                    <button class="gts-but">
+                        To order
+                    </button>
+                </div>
+            </div>
+            <div class="gds flex">
+                <div class="deepgds">
+                    <img src="img/iph.png" alt="" class="iph">
+                </div>
+                <div class="gds2 flex">
+                    <h4 class="gds-t1">
+                        Iphone
+                    </h4>
+                    <p class="gds-t2 t2-3">
+                        The&nbsp;Best
+                    </p>
+                    <button class="gts-but">
+                        To order
+                    </button>
+                </div>
+            </div>
+            <div class="gds flex">
+                <div class="deepgds">
+                    <img src="img/frid.jpeg" alt="" class="fridge">
+                </div>
+                <div class="gds2 flex">
+                    <h4 class="gds-t1">
+                        Fridge
+                    </h4>
+                    <p class="gds-t2 t2-4">
+                        To&nbsp;Kitchen 
+                    </p>
+                    <button class="gts-but">
+                        To order
+                    </button>
+                </div>
+            </div>
+            <div class="gds flex">
+                <div class="deepgds">
+                    <img src="img/mous.jpeg" alt="" class="mouse">
+                </div>
+                <div class="gds2 flex">
+                    <h4 class="gds-t1">
+                        Mouse
+                    </h4>
+                    <p class="gds-t2 t2-5">
+                        For&nbsp;gayming
+                    </p>
+                    <button class="gts-but">
+                        To order
+                    </button>
+                </div>
+            </div>
+            <div class="gds flex">
+                <div class="deepgds">
+                    <img src="img/keyb.jpg" alt="" class="keyb">
+                </div>
+                <div class="gds2 flex">
+                    <h4 class="gds-t1">
+                        Keyboard
+                    </h4>
+                    <p class="gds-t2 t2-6">
+                        For&nbsp;gayming
+                    </p>
+                    <button class="gts-but">
+                        To order
+                    </button>
+                </div>
+            </div>
+            <div class="gds flex">
+                <div class="deepgds">
+                    <img src="img/pan.jpg" alt="" class="pan">
+                </div>
+                <div class="gds2 flex">
+                    <h4 class="gds-t1">
+                        Pan
+                    </h4>
+                    <p class="gds-t2 t2-7">
+                        To&nbsp;Kitchen
+                    </p>
+                    <button class="gts-but">
+                        To order
+                    </button>
+                </div>
+            </div>
+            <div class="gds flex">
+                <div class="deepgds">
+                    <img src="img/tsh.jpeg" alt="" class="tsh">
+                </div>
+                <div class="gds2 flex">
+                    <h4 class="gds-t1">
+                        Tshirt
+                    </h4>
+                    <p class="gds-t2 t2-8">
+                        Clothes
+                    </p>
+                    <button class="gts-but">
+                        To order
+                    </button>
+                </div>
+            </div>
+            <div class="gds flex">
+                <div class="deepgds">
+                    <img src="img/scr.jpg" alt="" class="scr">
+                </div>
+                <div class="gds2 flex">
+                    <h4 class="gds-t1">
+                        Screwdriver
+                    </h4>
+                    <p class="gds-t2 t2-9">
+                        For&nbsp;House
+                    </p>
+                    <button class="gts-but">
+                        To order
+                    </button>
+                </div>
+            </div>
+            <div class="gds flex">
+                <div class="deepgds">
+                    <img src="img/ham.jpeg" alt="" class="ham">
+                </div>
+               <div class="gds2 flex">
+                <h4 class="gds-t1">
+                    Hammer
+                </h4>
+                <p class="gds-t2 t2-10">
+                    For&nbsp;House
+                </p>
+                <button class="gts-but">
+                    To order
+                </button>
+               </div>
+            </div>
+            <div class="gds flex">
+                <div class="deepgds">
+                    <img src="img/car.jpg" alt="" class="car">
+                </div>
+               <div class="gds2 flex">
+                <h4 class="gds-t1">
+                    Car
+                </h4>
+                <p class="gds-t2 t2-11">
+                    Better
+                </p>
+                <button class="gts-but">
+                    To order
+                </button>
+               </div>
+            </div>
+            <div class="gds flex">
+                <div class="deepgds">
+                    <img src="img/spin.jpg" alt="" class="spin">
+                </div>
+                <div class="gds2 flex">
+                    <h4 class="gds-t1">
+                        Spiner
+                    </h4>
+                    <p class="gds-t2 t2-12">
+                        For&nbsp;Children
+                    </p>
+                    <button class="gts-but">
+                        To order
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <section class="menu">
+            <ul class="menu-ul flex">
+                <list class="menu-list">Hello</list>
+                <list class="menu-list">Hello</list>
+                <list class="menu-list">Hello</list>
+                <list class="menu-list">Hello</list>
+                <list class="menu-list">Hello</list>
+            </ul>
+        </section>
+    </main>
+    <script src="js/market.js"></script>
+</body>
+</html>
