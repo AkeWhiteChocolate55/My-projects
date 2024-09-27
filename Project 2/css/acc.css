@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+.left-ponel {
+    min-width: 300px;
+    min-height: 100vh;
+    background-color: #d102ff;
+    margin: 0px;
+    padding: 0px;
+}
+
+.back {
+    text-decoration: none;
+    color: #fff; 
+    font-weight: 700;
+    position: absolute;
+    top: 15px;
+    left: 30px;
+    scale: 1.3;
+}
+
+.treg1 {
+    position: absolute;
+    bottom: 0px;
+    border: 150px solid transparent; border-bottom: 150px solid #9442a6; border-left: 150px solid #9442a6;
+}
+
+.treg2 {
+    border: 150px solid transparent; border-left: 150px solid #da73f1; border-top: 150px solid #da73f1;
+}
+
+.card {
+    position: absolute;
+    left: 495px;
+    top: 120px;
+    background-color: #d102ff;
+    color: #fff;
+    padding: 10px;
+    scale: 2;
+    border-radius: 7px;
+}
+
+.btn-name {
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #d102ff;
+}
+
+.btn-pas {
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #d102ff;
+}
+
+.btn-out {
+    border: none;
+    margin-top: 10px;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 6px;
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #d102ff;
+}
+

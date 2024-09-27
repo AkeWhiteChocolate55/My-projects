@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/acc.css">
+    <title>Account</title>
+</head>
+<body>
+    <div class="main">
+        <div class="left-ponel">
+            <a href="index.html" class="back">⟵ HOME</a>
+            <div class="treg1"></div>
+            <div class="treg2"></div>
+        </div>
+        <div class="card">
+            <h2>Welcome to your account!</h2>
+        <hr>
+        <h3>Your name: 
+            <script>
+                document.write(localStorage.getItem("name"));
+            </script>
+            <button class="btn-name" onclick="ren()">Reset Name</button>
+        </h3>
+        <h3>Your password: 
+            <script>
+                document.write(localStorage.getItem("pass"));
+            </script>
+            <button class="btn-name" onclick="res()">Reset password</button>
+        </h3>
+        <h5>Your email: 
+            <script>
+                document.write(localStorage.getItem("email"));
+            </script>
+        </h5>
+        <button id="btn" class="btn-out" onclick="logOut()">Log Out</button>
+        </div>
+    </div>
+    <script src="js/acc.js"></script>
+</body>
+</html>
